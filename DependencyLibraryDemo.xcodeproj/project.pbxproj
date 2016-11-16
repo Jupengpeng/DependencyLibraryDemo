@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8165DE21DDB33CD008E3059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8165DE11DDB33CD008E3059 /* main.m */; };
+		B8165DE51DDB33CD008E3059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8165DE41DDB33CD008E3059 /* AppDelegate.m */; };
+		B8165DE81DDB33CD008E3059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8165DE71DDB33CD008E3059 /* ViewController.m */; };
+		B8165DEB1DDB33CD008E3059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8165DE91DDB33CD008E3059 /* Main.storyboard */; };
+		B8165DED1DDB33CD008E3059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8165DEC1DDB33CD008E3059 /* Assets.xcassets */; };
+		B8165DF01DDB33CD008E3059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8165DEE1DDB33CD008E3059 /* LaunchScreen.storyboard */; };
+		B88D8DEE1DDC38BE0070EFD3 /* ChenEasonLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D8DDC1DDC33870070EFD3 /* ChenEasonLib.framework */; };
+		B88D8DF01DDC38BE0070EFD3 /* SonyMp3PlayerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88D8DE21DDC33B50070EFD3 /* SonyMp3PlayerLib.framework */; };
+		B88D8DFC1DDC448A0070EFD3 /* ZhouJielunLib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B88D8DE81DDC359D0070EFD3 /* ZhouJielunLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88D8DFD1DDC448D0070EFD3 /* SonyMp3PlayerLib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B88D8DE21DDC33B50070EFD3 /* SonyMp3PlayerLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88D8DFE1DDC44910070EFD3 /* ChenEasonLib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B88D8DDC1DDC33870070EFD3 /* ChenEasonLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88D8DFF1DDC44940070EFD3 /* LinXiLib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B88D8DD61DDC33800070EFD3 /* LinXiLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B88D8DD51DDC33800070EFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88D8DD11DDC337F0070EFD3 /* LinXiLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B8165E951DDB3ACF008E3059;
+			remoteInfo = LinXiLib;
+		};
+		B88D8DDB1DDC33870070EFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88D8DD71DDC33870070EFD3 /* ChenEasonLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B8165E611DDB39C6008E3059;
+			remoteInfo = ChenEasonLib;
+		};
+		B88D8DE11DDC33B50070EFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88D8DDD1DDC33B50070EFD3 /* SonyMp3PlayerLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B8165E481DDB391B008E3059;
+			remoteInfo = SonyMp3PlayerLib;
+		};
+		B88D8DE71DDC359D0070EFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88D8DE31DDC359C0070EFD3 /* ZhouJielunLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B8165E011DDB346C008E3059;
+			remoteInfo = ZhouJielunLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B88D8DF61DDC441F0070EFD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B88D8DFF1DDC44940070EFD3 /* LinXiLib.framework in CopyFiles */,
+				B88D8DFE1DDC44910070EFD3 /* ChenEasonLib.framework in CopyFiles */,
+				B88D8DFD1DDC448D0070EFD3 /* SonyMp3PlayerLib.framework in CopyFiles */,
+				B88D8DFC1DDC448A0070EFD3 /* ZhouJielunLib.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B8165DDD1DDB33CD008E3059 /* DependencyLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8165DE11DDB33CD008E3059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8165DE31DDB33CD008E3059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8165DE41DDB33CD008E3059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8165DE61DDB33CD008E3059 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8165DE71DDB33CD008E3059 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8165DEA1DDB33CD008E3059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8165DEC1DDB33CD008E3059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8165DEF1DDB33CD008E3059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8165DF11DDB33CD008E3059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88D8DD11DDC337F0070EFD3 /* LinXiLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LinXiLib.xcodeproj; path = LinXiLib/LinXiLib.xcodeproj; sourceTree = "<group>"; };
+		B88D8DD71DDC33870070EFD3 /* ChenEasonLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChenEasonLib.xcodeproj; path = ChenEasonLib/ChenEasonLib.xcodeproj; sourceTree = "<group>"; };
+		B88D8DDD1DDC33B50070EFD3 /* SonyMp3PlayerLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SonyMp3PlayerLib.xcodeproj; path = SonyMp3PlayerLib/SonyMp3PlayerLib.xcodeproj; sourceTree = "<group>"; };
+		B88D8DE31DDC359C0070EFD3 /* ZhouJielunLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZhouJielunLib.xcodeproj; path = ZhouJielunLib/ZhouJielunLib.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8165DDA1DDB33CD008E3059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88D8DEE1DDC38BE0070EFD3 /* ChenEasonLib.framework in Frameworks */,
+				B88D8DF01DDC38BE0070EFD3 /* SonyMp3PlayerLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8165DD41DDB33CD008E3059 = {
+			isa = PBXGroup;
+			children = (
+				B88D8DE31DDC359C0070EFD3 /* ZhouJielunLib.xcodeproj */,
+				B88D8DDD1DDC33B50070EFD3 /* SonyMp3PlayerLib.xcodeproj */,
+				B88D8DD71DDC33870070EFD3 /* ChenEasonLib.xcodeproj */,
+				B88D8DD11DDC337F0070EFD3 /* LinXiLib.xcodeproj */,
+				B8165DDF1DDB33CD008E3059 /* DependencyLibraryDemo */,
+				B8165DDE1DDB33CD008E3059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8165DDE1DDB33CD008E3059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8165DDD1DDB33CD008E3059 /* DependencyLibraryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8165DDF1DDB33CD008E3059 /* DependencyLibraryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B8165DE31DDB33CD008E3059 /* AppDelegate.h */,
+				B8165DE41DDB33CD008E3059 /* AppDelegate.m */,
+				B8165DE61DDB33CD008E3059 /* ViewController.h */,
+				B8165DE71DDB33CD008E3059 /* ViewController.m */,
+				B8165DE91DDB33CD008E3059 /* Main.storyboard */,
+				B8165DEC1DDB33CD008E3059 /* Assets.xcassets */,
+				B8165DEE1DDB33CD008E3059 /* LaunchScreen.storyboard */,
+				B8165DF11DDB33CD008E3059 /* Info.plist */,
+				B8165DE01DDB33CD008E3059 /* Supporting Files */,
+			);
+			path = DependencyLibraryDemo;
+			sourceTree = "<group>";
+		};
+		B8165DE01DDB33CD008E3059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8165DE11DDB33CD008E3059 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B88D8DD21DDC337F0070EFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88D8DD61DDC33800070EFD3 /* LinXiLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88D8DD81DDC33870070EFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88D8DDC1DDC33870070EFD3 /* ChenEasonLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88D8DDE1DDC33B50070EFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88D8DE21DDC33B50070EFD3 /* SonyMp3PlayerLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88D8DE41DDC359C0070EFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88D8DE81DDC359D0070EFD3 /* ZhouJielunLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8165DDC1DDB33CD008E3059 /* DependencyLibraryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8165DF41DDB33CD008E3059 /* Build configuration list for PBXNativeTarget "DependencyLibraryDemo" */;
+			buildPhases = (
+				B8165DD91DDB33CD008E3059 /* Sources */,
+				B8165DDA1DDB33CD008E3059 /* Frameworks */,
+				B8165DDB1DDB33CD008E3059 /* Resources */,
+				B88D8DF61DDC441F0070EFD3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DependencyLibraryDemo;
+			productName = DependencyLibraryDemo;
+			productReference = B8165DDD1DDB33CD008E3059 /* DependencyLibraryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8165DD51DDB33CD008E3059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yintao;
+				TargetAttributes = {
+					B8165DDC1DDB33CD008E3059 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 62UDHM98C2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B8165DD81DDB33CD008E3059 /* Build configuration list for PBXProject "DependencyLibraryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8165DD41DDB33CD008E3059;
+			productRefGroup = B8165DDE1DDB33CD008E3059 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B88D8DD81DDC33870070EFD3 /* Products */;
+					ProjectRef = B88D8DD71DDC33870070EFD3 /* ChenEasonLib.xcodeproj */;
+				},
+				{
+					ProductGroup = B88D8DD21DDC337F0070EFD3 /* Products */;
+					ProjectRef = B88D8DD11DDC337F0070EFD3 /* LinXiLib.xcodeproj */;
+				},
+				{
+					ProductGroup = B88D8DDE1DDC33B50070EFD3 /* Products */;
+					ProjectRef = B88D8DDD1DDC33B50070EFD3 /* SonyMp3PlayerLib.xcodeproj */;
+				},
+				{
+					ProductGroup = B88D8DE41DDC359C0070EFD3 /* Products */;
+					ProjectRef = B88D8DE31DDC359C0070EFD3 /* ZhouJielunLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B8165DDC1DDB33CD008E3059 /* DependencyLibraryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B88D8DD61DDC33800070EFD3 /* LinXiLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LinXiLib.framework;
+			remoteRef = B88D8DD51DDC33800070EFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B88D8DDC1DDC33870070EFD3 /* ChenEasonLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChenEasonLib.framework;
+			remoteRef = B88D8DDB1DDC33870070EFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B88D8DE21DDC33B50070EFD3 /* SonyMp3PlayerLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SonyMp3PlayerLib.framework;
+			remoteRef = B88D8DE11DDC33B50070EFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B88D8DE81DDC359D0070EFD3 /* ZhouJielunLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZhouJielunLib.framework;
+			remoteRef = B88D8DE71DDC359D0070EFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8165DDB1DDB33CD008E3059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8165DF01DDB33CD008E3059 /* LaunchScreen.storyboard in Resources */,
+				B8165DED1DDB33CD008E3059 /* Assets.xcassets in Resources */,
+				B8165DEB1DDB33CD008E3059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8165DD91DDB33CD008E3059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8165DE81DDB33CD008E3059 /* ViewController.m in Sources */,
+				B8165DE51DDB33CD008E3059 /* AppDelegate.m in Sources */,
+				B8165DE21DDB33CD008E3059 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8165DE91DDB33CD008E3059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8165DEA1DDB33CD008E3059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8165DEE1DDB33CD008E3059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8165DEF1DDB33CD008E3059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8165DF21DDB33CD008E3059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8165DF31DDB33CD008E3059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8165DF51DDB33CD008E3059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62UDHM98C2;
+				INFOPLIST_FILE = DependencyLibraryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yintao.wybz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8165DF61DDB33CD008E3059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62UDHM98C2;
+				INFOPLIST_FILE = DependencyLibraryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yintao.wybz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8165DD81DDB33CD008E3059 /* Build configuration list for PBXProject "DependencyLibraryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8165DF21DDB33CD008E3059 /* Debug */,
+				B8165DF31DDB33CD008E3059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8165DF41DDB33CD008E3059 /* Build configuration list for PBXNativeTarget "DependencyLibraryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8165DF51DDB33CD008E3059 /* Debug */,
+				B8165DF61DDB33CD008E3059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8165DD51DDB33CD008E3059 /* Project object */;
+}
